@@ -48,10 +48,10 @@ except Exception as e:
     logging.error(f'Erro ao filtrar coluna Cuisines: {e}')
     
 try:
-    df['Country Names'] = df.loc[:,'Country Code'].apply(lambda x: COUNTRIES[x])
-    logging.info(f'Gerando coluna "Country Names".')
+    df['Country Name'] = df.loc[:,'Country Code'].apply(lambda x: COUNTRIES[x])
+    logging.info(f'Gerando coluna "Country Name".')
 except Exception as e:
-    logging.error(f'Erro durante criação da coluna "Country Names": {e}')
+    logging.error(f'Erro durante criação da coluna "Country Name": {e}')
 
 try:
     df.to_csv('dataset/zomato_clean.csv', index=False)

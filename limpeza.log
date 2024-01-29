@@ -1,0 +1,7 @@
+28/01/2024 06:18:27 PM INFO:Limpeza iniciada...
+28/01/2024 06:18:27 PM INFO:Valores NaN foram removidos.
+28/01/2024 06:18:28 PM INFO:Removendo espacos em colunas "object".
+28/01/2024 06:18:28 PM INFO:Pegando apenas 1 valor da col Cuisines.
+28/01/2024 06:18:28 PM INFO:Gerando coluna "Country Names".
+28/01/2024 06:18:28 PM INFO:Gerado csv com dataset limpo.
+28/01/2024 06:18:28 PM INFO:Fim do script de limpeza!

@@ -1,7 +1,14 @@
-28/01/2024 06:18:27 PM INFO:Limpeza iniciada...
-28/01/2024 06:18:27 PM INFO:Valores NaN foram removidos.
-28/01/2024 06:18:28 PM INFO:Removendo espacos em colunas "object".
-28/01/2024 06:18:28 PM INFO:Pegando apenas 1 valor da col Cuisines.
-28/01/2024 06:18:28 PM INFO:Gerando coluna "Country Names".
-28/01/2024 06:18:28 PM INFO:Gerado csv com dataset limpo.
-28/01/2024 06:18:28 PM INFO:Fim do script de limpeza!
+29/01/2024 10:39:17 PM INFO:Limpeza iniciada...
+29/01/2024 10:39:17 PM INFO:Valores NaN e dados duplicados foram removidos.
+29/01/2024 10:39:17 PM INFO:Removendo espacos em colunas "object".
+29/01/2024 10:39:17 PM INFO:Pegando apenas 1 valor da col Cuisines.
+29/01/2024 10:39:17 PM INFO:Gerando coluna "Country Name".
+29/01/2024 10:39:17 PM INFO:Gerado csv com dataset limpo.
+29/01/2024 10:39:17 PM INFO:Fim do script de limpeza!
+30/01/2024 12:44:16 AM INFO:Limpeza iniciada...
+30/01/2024 12:44:16 AM INFO:Valores NaN e dados duplicados foram removidos.
+30/01/2024 12:44:17 AM INFO:Removendo espacos em colunas "object".
+30/01/2024 12:44:17 AM INFO:Pegando apenas 1 valor da col Cuisines.
+30/01/2024 12:44:17 AM INFO:Gerando coluna "Country Name".
+30/01/2024 12:44:17 AM INFO:Gerado csv com dataset limpo.
+30/01/2024 12:44:17 AM INFO:Fim do script de limpeza!

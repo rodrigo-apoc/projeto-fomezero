@@ -27,9 +27,10 @@ COUNTRIES = {
 
 try:
     df.dropna(axis=0, inplace=True, ignore_index=True)
-    logging.info('Valores NaN foram removidos.')
+    df.drop_duplicates(inplace=True)
+    logging.info('Valores NaN e dados duplicados foram removidos.')
 except Exception as e:
-    logging.error(f'Erro durante remoção dos NaNs: {e}')
+    logging.error(f'Erro durante remoção dos NaNs e duplicados: {e}')
     
 try:
     for x in list(df.columns):
